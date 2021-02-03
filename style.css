@@ -1,4 +1,47 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+
+img {
+  height: 70px;
+  width: auto;
+}
+
+.item {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+  align-content: center;
+  display: grid;
+  justify-items: center;
+  height: 150px;
+  width: 100px;
+  line-height: normal;
+  justify-content: space-around;
+}
+
+.num {
+  font-size: 30px;
+}
+
+.score {
+  margin: 80px;
+  font-size: 40px;
+  position: relative;
+  top: -60px;
 }
